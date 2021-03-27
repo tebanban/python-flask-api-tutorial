@@ -1,5 +1,7 @@
 from flask import Flask, jsonify, request
 app = Flask(__name__)
+import json
+decoded_object = json.loads(original_string)
 
 todos=[
       {"label": "My first task", "done": False},
