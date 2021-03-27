@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://amber-sole-q1dl5kjl.ws-us03.gitpod.io",
+        "address": "https://aqua-ptarmigan-vszqpyz7.ws-us03.gitpod.io",
         "editor": {
             "mode": "gitpod",
             "version": "1.0.61"
@@ -14,6 +14,9 @@
         "exercisesPath": ".learn/exercises",
         "disableGrading": false,
         "actions": [
+            "build",
+            "test",
+            "reset",
             "build",
             "test",
             "reset",
@@ -327,7 +330,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 10,

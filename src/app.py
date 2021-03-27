@@ -2,14 +2,14 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 todos=[
+      {"label": "My first task", "done": False},
       {"label": "My first task", "done": False}
-      
       ]
 
 @app.route('/todos', methods=['GET'])
 def hello_world():
     json_text = jsonify(todos)
-    return jason_text
+    return json_text
  
 
 # These two lines should always be at the end of your app.py file.
